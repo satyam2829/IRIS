@@ -8,6 +8,7 @@ import seaborn as sns
 
 from PIL import Image
 
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 @st.cache
 def load_dataset(dataset):
